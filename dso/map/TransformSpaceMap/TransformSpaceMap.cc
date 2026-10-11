@@ -7,6 +7,8 @@
 
 #include <moonray/rendering/shading/MapApi.h>
 
+#include <array>   // the screen window is a std::array<float, 4>
+
 using namespace scene_rdl2::math;
 
 //----------------------------------------------------------------------------

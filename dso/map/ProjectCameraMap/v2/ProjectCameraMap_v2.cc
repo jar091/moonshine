@@ -13,6 +13,7 @@
 #include <moonray/rendering/shading/BasicTexture.h>
 #include <moonray/rendering/shading/MapApi.h>
 
+#include <array>   // the screen window is a std::array<float, 4>
 #include <memory>
 
 using namespace moonshine;

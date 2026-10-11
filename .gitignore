@@ -31,3 +31,8 @@ cmd/client_apps/Android/bin/
 
 # gha created files
 .ci_githooks
+
+# Windows: /include/moonshine is a self-alias (a git symlink upstream, an NTFS
+# junction here). Git walks the junction and would otherwise report the entire
+# lib/ tree a second time as untracked.
+/include/moonshine/

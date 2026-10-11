@@ -13,6 +13,9 @@
 #include <scene_rdl2/common/math/Xform.h>
 #include <scene_rdl2/render/util/Random.h>
 
+#include <array>   // TriplanarFaceAttrs and the per-face texture tables
+#include <memory>  // std::unique_ptr
+
 #include "Projection_ispc_stubs.h"
 #include "TriplanarTexture_ispc_stubs.h"
 
